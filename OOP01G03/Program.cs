@@ -27,8 +27,22 @@ namespace OOP01G03
             //2)improves maintainability
             //3) Reduced bugs
             //4)provides flexibility
-        #endregion
-    }
+
+            #endregion
+
+            #region 03
+            //DeliveryAddres address1 = new DeliveryAddres("cairo", "El-tahrir", 12);
+            //DeliveryAddres address2 = address1;
+            //address2.city = "Alex";
+            //address2.buildingNumber = 20;
+            //Console.WriteLine($"Address 1: {address1.GetFullAddress()}");
+            //Console.WriteLine($"copied & modified Address 2: {address2.GetFullAddress()}"); 
+            //Console.WriteLine("proof of struct behavior (value type): when we modify the copy, the original remains unchanged.");
+
+            #endregion
+
+
+        }
     }
 }
 

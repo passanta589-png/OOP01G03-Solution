@@ -4,6 +4,8 @@ namespace OOP01G03
 {
     internal class Program
     {
+        
+
         static void Main(string[] args)
         {
             #region 01
@@ -41,8 +43,22 @@ namespace OOP01G03
 
             #endregion
 
+            #region 04
+            var shipment = new Shipment();
+            // optionally set a description if you expect non-null:
+            // shipment.Description = "My shipment";
+
+          //  Console.WriteLine($"tracking code :{TrackingCode}");
+            //Console.WriteLine($"description:{shipment.Description}");
+            //Console.WriteLine($"weight:{shipment.Weight}1kg");
+            //Console.WriteLine($"delivery fee:{shipment.DeliveryFee:c}50"); 
+            //Console.WriteLine($"estimated cost:{shipment.estimatedcost:c}");
+
+            #endregion
+
 
         }
     }
 }
+
 
